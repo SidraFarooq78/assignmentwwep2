@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light and darkmode</title>
+</head>
+<body>
+     <button class="darkbtn" > darkmode</button>
+    <button class="lightbtn">lightmode</button>
+
+</body>
+<script>
+
+      let body=document.querySelector("body")
+      let darkbtn=document.querySelector(".darkbtn")
+      let lightbtn=document.querySelector(".lightbtn")
+      console.log("lightbtn");
+
+        darkbtn.addEventListener("click",function() {
+        body.style.background="green";
+        body.style.color="white"
+      })
+     
+    
+       lightbtn.addEventListener("click",()=>{
+        body.style.background="brown";
+        body.style,color="white"
+    });
+    let h3=document.createElement("h3")
+    console.log(h3)
+    document. body.appendChild(h3)
+
+    let image= document.createElement("img")
+    image.src="image.jpg";
+    image.style.alignItems="cursor"
+    document. body.appendChild(image)
+</script>
+</html>
